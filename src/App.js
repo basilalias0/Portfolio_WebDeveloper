@@ -1,5 +1,5 @@
 import './style.css';
-import Pdf from './PDFs/BASIL_ALIAS_Resume_PythonDjangoFullstackdeveloper.pdf'
+import Pdf from './PDFs/BASIL_ALIAS_Resume_Fullstackdeveloper.pdf'
 
 function App() {
   return (
