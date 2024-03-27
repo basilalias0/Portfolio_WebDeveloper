@@ -1,0 +1,268 @@
+body{
+    margin: 0;
+    overflow: auto;
+    background-color: #0a192f;
+    color: white;  
+}
+.box{
+    width: 100%;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-top: 2.0rem;
+    background-color: rgb(10, 25, 47);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 0  15px 5px rgb(69, 208, 162, 0.5);
+    color: rgb(69, 208, 162);
+    height: 5.5rem;
+    text-align: center;
+    z-index: 10;
+}
+nav .nav-space{
+    padding: 0 1.5rem;
+}
+ nav .logo{ 
+    height: 2.5rem;
+    width: 2.5rem;
+    
+}
+nav img{ 
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-top: -.5rem;
+    margin-left: -1rem;
+}
+nav .logo:hover{
+    
+    border-radius: 50px;  
+    box-shadow: 0 0 50px rgb(76, 206, 235);  
+}
+nav a{
+    color: rgb(69, 208, 162);
+    text-decoration: none;
+    margin: .5rem;
+}
+nav a:hover{
+    color: rgb(255, 255, 255);   
+}
+nav .resume{
+    border: 2px solid aqua;
+    border-radius: 20px;
+}
+nav .resume:hover{
+    box-shadow: 2px 2px 50px aqua;
+}
+
+/*----------------------------------------------------------------------------*/
+
+.linkbar{ 
+    margin-top: 5.5rem;
+    display: flex;
+    width: 16%;
+    position: fixed;
+    top: 0;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 800px;   
+}
+.linkbar ul{
+    list-style-type: none;
+}
+.linkbar ul li{
+    margin-top: 3rem;
+}
+.linkicon :hover{
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 50px;  
+    box-shadow: 0 0 30px rgb(76, 206, 235);  
+}
+  
+.mainbar{
+    align-self: center;
+    display: flex;
+    margin: 0;
+    padding: 10rem 0 20rem 0
+}
+.mainbar.open_div{
+    display: flex;
+}
+.mainbar .open_div .open_convo{
+    color: rgb(69, 208, 162);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    padding-bottom: 1rem;
+}
+.mainbar .open_div .main_name{
+    color: rgb(208, 247, 158);
+    font-size: 10rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+}
+.mainbar .open_div .punchline{
+    font-size: 5rem;
+    color: rgb(69, 208, 162);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 1rem;
+
+}
+.mainbar .open_div .bitinfo{
+    color: gray;
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+.mainbar .open_div .main_quote{
+    color: white;
+    font-style: italic;
+    font-size: 1.5rem;
+    justify-self: center;
+}
+    
+.row-heading{
+    padding: 11rem 0 5rem 0;
+    color: rgb(69, 208, 162);
+    font-family: cursive;
+    align-items: baseline;
+    font-style: bold;  
+}
+.propic{
+    z-index: -1;
+    height: 25rem;
+    width: 25rem; 
+}
+
+.about-content{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+}
+.highlight{
+    color: rgb(15, 202, 140);
+}
+.project-pic{
+    margin-bottom: 4rem;
+}
+.project-pic img{
+    z-index: -1;
+    height: 25rem;
+    width: 45rem; 
+}
+.project-info{
+    z-index: 1;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    
+}
+.project-info .project-head{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.5rem;
+    text-align: end;
+}
+.project-info .project-content{
+    color: #0a192f;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+    text-align: center;   
+}
+.project-info .project-links{
+    text-align: end;
+    
+}
+.card {
+    background-color: #112240;
+    color: aliceblue;
+    z-index: 1;
+}
+.card .git{
+    margin: 1.5rem 0;
+    display: flex;
+    justify-content: end;
+}
+
+
+.contact-me{
+    text-align: center;
+    padding: 0 10rem 5rem 10rem;
+}
+.contact-me .title{
+    font-size: 4rem;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+}
+.contact-me .subtitle{
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+    color: #495670;
+}
+
+.contact-me a{
+    background-color: #112240;
+    border-radius: 10px;
+    color: rgb(69, 208, 162);
+    font-size: 1.5rem;
+    font-family: Lucida;
+    padding: 1rem;
+    text-decoration: none;
+    border: 2px solid aqua;
+}
+.contact-me a:hover{
+    color: #112240;
+    background-color: aqua;
+    transition: 0.2s;
+}
+/*-----------------------------------------------*/
+.sidebar{
+    margin-top: 5.5rem;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    writing-mode: vertical-rl;
+    padding-left: 10rem;  
+
+}
+.sidebar a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: rgb(69, 208, 162);
+    align-content: center;
+    align-self: center;
+    
+}
+.sidebar a:hover{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(69, 208, 162), 0 0 5px rgb(23, 130, 94);
+}
+.vertical_line{
+    border-left: 1px solid rgb(69, 208, 162);
+      height: 200px;
+      align-self: center;
+      left: 50%;
+      margin-top: 1rem;
+      padding-top: 1rem;
+}
+
+
+
+/*------------------------------------*/
+footer{
+    display: flex;
+    background-color: #0a192f;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: white;
+    justify-content: center;
+}
+footer .footer_content{
+    align-self: flex-end;
+}
