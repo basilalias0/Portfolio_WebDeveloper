@@ -152,6 +152,36 @@ function App() {
               <br />
               <div className="col-6">
                 <div className="project-pic">
+                  <img src={require('./Images/IETracker-loginPage.png')} alt="image not found" />
+                </div>
+              </div>
+              <div className="col-6">
+                <div className="project-info">
+                  <div className="project-head">
+                    IE Tracker
+                    <br />
+                    Tacker your Expense
+                  </div>
+                  <div className="project-content shadow p-3 mb-5 bg-body-tertiary rounded">
+                    IE Tracker is a{" "}
+                    <span className="highlight">Multi-page</span> project,
+                    which is based on{" "}
+                    <span className="highlight">Express.js</span> and{" "}
+                    <span className="highlight">React.js</span>. You can tracker your income and expense by it. Database used in it is a NoSQL and it is{" "}
+                    <span className="highlight">MongoDB</span>.{" "}
+                  </div>
+                  <div className="git  project-links">
+                    <a href="https://ie-tracker.vercel.app/">
+                      <i
+                        className="fa-solid fa-link fa-2xl" 
+                        style={{ color: "#ffffff" }}
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-6">
+                <div className="project-pic">
                   <img src={require('./Images/prodigy.png')} alt="image not found" />
                 </div>
               </div>
