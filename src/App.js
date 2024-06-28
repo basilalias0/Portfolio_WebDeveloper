@@ -152,6 +152,31 @@ function App() {
               <br />
               <div className="col-6">
                 <div className="project-pic">
+                  <img src={require('./Images/Blog App.png')} alt="image not found" />
+                </div>
+              </div>
+              <div className="col-6">
+                <div className="project-info">
+                  <div className="project-head">
+                    Blog App
+                    <br />
+                    Share your Thoughts!
+                  </div>
+                  <div className="project-content shadow p-3 mb-5 bg-body-tertiary rounded">
+                  A <span className="highlight">Full-Featured</span> blog sharing application was developed using <span className="highlight">React.js</span>,<span className="highlight">Redux</span> ,<span className="highlight">Node.js</span> ,<span className="highlight">Express.js</span>  and <span className="highlight">MongoDB</span> with a strong authentication through <span className="highlight">JWT</span>.
+                  </div>
+                  <div className="git  project-links">
+                    <a href="https://mern-blog-app-eight-jade.vercel.app">
+                      <i
+                        className="fa-solid fa-link fa-2xl" 
+                        style={{ color: "#ffffff" }}
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-6">
+                <div className="project-pic">
                   <img src={require('./Images/IETracker-loginPage.png')} alt="image not found" />
                 </div>
               </div>
